@@ -345,6 +345,20 @@ aliases:
     RGB1=PB15		, RGB2=PB14	,
 ```
 
+**Note:** 
+The EN pin of the N20 motor on this board does not support Hardware PWM. Please set `Hardware_pwm` to `False` in the configuration.
+
+```
+[AFC_stepper lane1]
+...
+hardware_pwm: False
+...
+
+[AFC_stepper lane2]
+[AFC_stepper lane3]
+[AFC_stepper lane4]
+```
+
 ### **5.2 BT Happy Hare Software Configuration**
 
 After installation, you need to modify the pin-related content in the mmu/base/mmu.cfg file. Copy the content below to replace the corresponding content **[Compatible with HH 3.2+ version]**
