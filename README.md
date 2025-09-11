@@ -2,7 +2,9 @@
 
 English | [中文](README_CN.md)
 
-<summary>Table of Contents</summary>
+---
+
+## Table of Contents
 
 - [Introduction](#introduction)
 - [1. PIN Diagram](#1-pin-diagram)
@@ -11,6 +13,8 @@ English | [中文](README_CN.md)
 - [4. BoxTurtle Wiring Diagram](#4-boxturtle-wiring-diagram)
 - [5. Configuration](#5-configuration)
 
+
+---
 
 ## Introduction
 
