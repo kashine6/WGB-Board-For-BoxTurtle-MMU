@@ -17,7 +17,7 @@ It has the following features:
 - **1 x I2C interface** for connecting temperature and humidity sensors
 - **1 x Temperature measurement interface** for DIY multi-color drying with fan interface and relay
 - **USB and CAN support**. CAN uses MX3.0 2x2p with foolproof design
-- **Compatible dimensions** with Turtle Box multi-color board AFC-Lite mounting holes
+- **Compatible dimensions**. Mounting hole pattern compatible with BoxTurtle AFC-Lite board
 
 ## **1. PIN Diagram**
 
