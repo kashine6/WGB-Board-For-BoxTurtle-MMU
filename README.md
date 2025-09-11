@@ -1,6 +1,18 @@
-# **WGB V3 Board Manual**
+# WGB V3 Board Manual
 
 English | [中文](README_CN.md)
+
+<summary>Table of Contents</summary>
+
+- [Introduction](#introduction)
+- [1.PIN Diagram](#1. PIN Diagram)
+- [2.Firmware Flashing Guide (No Canboot)](#2. Firmware Flashing Guide (No Canboot))
+- [3.Firmware Flashing Guide (With Canboot)](#3. Firmware Flashing Guide (With Canboot))
+- [4.BoxTurtle Wiring Diagram](#4. BoxTurtle Wiring Diagram)
+- [5.Configuration](#5. Configuration)
+
+
+## Introduction
 
 ![img](Assets/img_1.png)
 
@@ -19,13 +31,13 @@ It has the following features:
 - **USB and CAN support**. CAN uses MX3.0 2x2p with foolproof design
 - **Compatible dimensions**. Mounting hole pattern compatible with BoxTurtle AFC-Lite board
 
-## **1. PIN Diagram**
+## 1. PIN Diagram
 
 !! Refer to Section 4 for wiring diagram !!
 
 ![img](Assets/img_2_en.jpg)
 
-## **2. Firmware Flashing Tutorial (No Canboot)**
+## 2. Firmware Flashing Guide (No Canboot)
 
 ### **2.1 Firmware Compilation**
 
@@ -144,9 +156,9 @@ Then use the following command to view UUID:
 
 ![img](Assets/img_15.png)
 
-## **3. Firmware Flashing Tutorial (With Canboot)**
+## 3. Firmware Flashing Guide (With Canboot)
 
-For those who need to use canboot (katapult), follow the tutorial below
+For those who need to use canboot (katapult), follow the Guide below
 
 First, SSH into the host computer
 
@@ -287,11 +299,11 @@ Then continue using the previous command to view CAN information
 
 **In actual use, you can also directly input the flashing command, and the board will automatically restart and enter canboot.**
 
-## **4. BoxTurtle Wiring Diagram**
+## 4. BoxTurtle Wiring Diagram
 
 ![img](Assets/img_31_en.jpg)
 
-## **5. Configuration**
+## 5. Configuration
 
 ### **5.1 BT AFC Software Configuration**
 
