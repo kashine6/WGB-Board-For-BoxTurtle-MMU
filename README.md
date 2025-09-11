@@ -13,7 +13,7 @@ It has the following features:
 - **4 x Brushed DC motor drivers** with forward/reverse support, En pin, and sleep mode
 - **2 x RGB LED connectors** with servo support
 - **16 x Microswitch control connectors** for conventional B-type multi-color needs, with redundant interface design for eject buttons, encoders, and other functions
-- **2 x 5V/24V fan connectors** (with speed control, voltage selection via jumper)
+- **2 x 5V/24V fan connectors** (with speed control, voltage selection via jumper, also compatible with relay-controlled PTC heaters)
 - **1 x I2C interface** for connecting temperature and humidity sensors
 - **1 x Temperature measurement interface** for DIY multi-color drying with fan interface and relay
 - **USB and CAN support**. CAN uses MX3.0 2x2p with foolproof design
