@@ -5,11 +5,11 @@ English | [中文](README_CN.md)
 <summary>Table of Contents</summary>
 
 - [Introduction](#introduction)
-- [1.PIN Diagram](#1. PIN Diagram)
-- [2.Firmware Flashing Guide (No Canboot)](#2. Firmware Flashing Guide (No Canboot))
-- [3.Firmware Flashing Guide (With Canboot)](#3. Firmware Flashing Guide (With Canboot))
-- [4.BoxTurtle Wiring Diagram](#4. BoxTurtle Wiring Diagram)
-- [5.Configuration](#5. Configuration)
+- [1. PIN Diagram](#1-pin-diagram)
+- [2. Firmware Flashing Guide (No Canboot)](#2-firmware-flashing-guide-no-canboot)
+- [3. Firmware Flashing Guide (With Canboot)](#3-firmware-flashing-guide-with-canboot)
+- [4. BoxTurtle Wiring Diagram](#4-boxturtle-wiring-diagram)
+- [5. Configuration](#5-configuration)
 
 
 ## Introduction
