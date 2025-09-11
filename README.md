@@ -23,7 +23,7 @@ It has the following features:
 
 !! Refer to Section 4 for wiring diagram !!
 
-![img](Assets/img_2.jpeg)
+![img](Assets/img_2_en.jpg)
 
 ## **2. Firmware Flashing Tutorial (No Canboot)**
 
