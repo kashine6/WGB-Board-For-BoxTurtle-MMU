@@ -4,13 +4,13 @@ English | [中文](README_CN.md)
 
 ![img](Assets/img_1.png)
 
-**WGB Board V3 Version (WuGuiBan)** is designed for B-type multi-color systems using DC motor retraction, such as BoxTurtle.
+**WGB Board V3 Version**  is designed to support a wide range of multi-material/multi-color systems (MMUs) and provides a comprehensive set of interfaces. It includes support for DC motor rewind, a generous number of endstop inputs for filament eject buttons and other functions, and temperature, humidity, and PWM interfaces required for PTC filament drying. Compatible systems include, but are not limited to, BoxTurtle, Quattro-Box, and ERCF.
 
 It has the following features:
 
 - **Main Chip**: STM32F446 MCU
 - **4 TMC2209-based motor slots** in UART mode, with level conversion for signal isolation between motors and main chip
-- **4 x Brushed DC motor drivers** with forward/reverse support, En pin, and sleep mode
+- **4 x 5V Brushed DC motor drivers** with forward/reverse support, En pin, and sleep mode
 - **2 x RGB LED connectors** with servo support
 - **16 x Microswitch control connectors** for conventional B-type multi-color needs, with redundant interface design for eject buttons, encoders, and other functions
 - **2 x 5V/24V fan connectors** (with speed control, voltage selection via jumper, also compatible with relay-controlled PTC heaters)
