@@ -289,7 +289,7 @@ Then continue using the previous command to view CAN information
 
 ## **4. Turtle Multi-Color Wiring Diagram**
 
-![img](Assets/img_31.jpeg)
+![img](Assets/img_31_en.jpg)
 
 ## **5. Configuration**
 
