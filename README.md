@@ -20,9 +20,11 @@ English | [中文](README_CN.md)
 
 ![img](Assets/img_1.png)
 
-**WGB Board V3 Version**  is designed to support a wide range of multi-material/multi-color systems (MMUs) and provides a comprehensive set of interfaces. It includes support for DC motor rewind, a generous number of endstop inputs for filament eject buttons and other functions, and temperature, humidity, and PWM interfaces required for PTC filament drying. Compatible systems include, but are not limited to, BoxTurtle, Quattro-Box, and ERCF.
+**WGB Board V3 Version**  is designed to support a wide range of multi-material/multi-color systems (MMUs) and provides a comprehensive set of interfaces. It includes support for DC motor rewind, a generous number of endstop inputs for filament eject buttons and other functions, and temperature, humidity, and PWM interfaces required for PTC filament drying. 
 
-It has the following features:
+Compatible systems include, but are not limited to, BoxTurtle, Quattro-Box, and ERCF.
+
+**It has the following features:**
 
 - **Main Chip**: STM32F446 MCU
 - **4 TMC2209-based motor slots** in UART mode, with level conversion for signal isolation between motors and main chip
