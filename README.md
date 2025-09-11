@@ -12,10 +12,10 @@ It has the following features:
 - **4 TMC2209-based motor slots** in UART mode, with level conversion for signal isolation between motors and main chip
 - **4 x 5V Brushed DC motor drivers** with forward/reverse support, En pin, and sleep mode
 - **2 x RGB LED connectors** with servo support
-- **16 x Microswitch control connectors** for conventional B-type multi-color needs, with redundant interface design for eject buttons, encoders, and other functions
+- **16 x Microswitch control connectors** for conventional B-type MMU needs, with redundant interface design for eject buttons, encoders, and other functions
 - **2 x 5V/24V fan connectors** (with speed control, voltage selection via jumper, also compatible with relay-controlled PTC heaters)
 - **1 x I2C interface** for connecting temperature and humidity sensors
-- **1 x Temperature measurement interface** for DIY multi-color drying with fan interface and relay
+- **1 x Temperature measurement interface** for DIY MMU drying with fan interface and relay
 - **USB and CAN support**. CAN uses MX3.0 2x2p with foolproof design
 - **Compatible dimensions**. Mounting hole pattern compatible with BoxTurtle AFC-Lite board
 
@@ -287,13 +287,13 @@ Then continue using the previous command to view CAN information
 
 **In actual use, you can also directly input the flashing command, and the board will automatically restart and enter canboot.**
 
-## **4. Turtle Multi-Color Wiring Diagram**
+## **4. BoxTurtle Wiring Diagram**
 
 ![img](Assets/img_31_en.jpg)
 
 ## **5. Configuration**
 
-### **5.1 BT Turtle Software Configuration**
+### **5.1 BT AFC Software Configuration**
 
 **BoxTurtle board configuration:**
 
