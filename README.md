@@ -12,7 +12,7 @@ It has the following features:
 - **4 TMC2209-based motor slots** in UART mode, with level conversion for signal isolation between motors and main chip
 - **4 x Brushed DC motor drivers** with forward/reverse support, En pin, and sleep mode
 - **2 x RGB LED connectors** with servo support
-- **16 x Microswitch control connectors** for conventional B-type multi-color needs, with redundant interface design for retraction buttons, encoders, and other functions
+- **16 x Microswitch control connectors** for conventional B-type multi-color needs, with redundant interface design for eject buttons, encoders, and other functions
 - **2 x 5V/24V fan connectors** (with speed control, voltage selection via jumper)
 - **1 x I2C interface** for connecting temperature and humidity sensors
 - **1 x Temperature measurement interface** for DIY multi-color drying with fan interface and relay
