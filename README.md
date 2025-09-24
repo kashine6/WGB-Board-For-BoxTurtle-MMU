@@ -3,9 +3,6 @@
 English | [中文](README_CN.md)
 
 ---
-This Board is available on AliExpress: 
-https://www.aliexpress.com/item/1005009945624058.html
----
 
 ## Table of Contents
 
@@ -23,6 +20,10 @@ https://www.aliexpress.com/item/1005009945624058.html
 **WGB Board V3 Version**  is designed to support a wide range of multi-material/multi-color systems (MMUs) and provides a comprehensive set of interfaces. It includes support for DC motor rewind, a generous number of endstop inputs for filament eject buttons and other functions, and temperature, humidity, and PWM interfaces required for PTC filament drying. 
 
 Compatible systems include, but are not limited to, BoxTurtle, Quattro-Box, and ERCF.
+
+
+Now, this board is available on [AliExpress](https://www.aliexpress.com/item/1005009945624058.html)
+
 
 ![img](Assets/img_1.png)
 
