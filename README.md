@@ -22,7 +22,7 @@ English | [中文](README_CN.md)
 Compatible systems include, but are not limited to, BoxTurtle, Quattro-Box, and ERCF.
 
 
-Now, this board is available on [AliExpress](https://www.aliexpress.com/item/1005009945624058.html)
+Now, this board is available on [AliExpress](https://www.aliexpress.com/item/1005009945624058.html) .
 
 
 ![img](Assets/img_1.png)
