@@ -3,6 +3,9 @@
 English | [中文](README_CN.md)
 
 ---
+This Board is available on AliExpress:  
+[Buy on AliExpress](https://www.aliexpress.com/item/1005009945624058.html)
+---
 
 ## Table of Contents
 
