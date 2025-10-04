@@ -21,6 +21,7 @@ English | [中文](README_CN.md)
 
 Compatible systems include, but are not limited to, BoxTurtle, Quattro-Box, and ERCF.
 
+This motherboard is factory-produced using high-quality electronic components with SMT assembly, ensuring reliable and consistent quality.
 
 Now, this board is available on [AliExpress](https://www.aliexpress.com/item/1005009945624058.html) .
 
