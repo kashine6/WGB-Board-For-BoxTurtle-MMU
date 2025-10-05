@@ -12,7 +12,7 @@ English | [中文](README_CN.md)
 - [3. Firmware Flashing Guide (With Canboot)](#3-firmware-flashing-guide-with-canboot)
 - [4. BoxTurtle Wiring Diagram](#4-boxturtle-wiring-diagram)
 - [5. BoxTurtle Configuration](#5-boxturtle-configuration)
-- [6. ERCF Wiring Diagram & Configuration](#6-boxturtle-configuration)
+- [6. ERCF Wiring Diagram and Configuration](#6-ercf-wiring-diagram-and-configuration)
 
 ---
 
@@ -476,7 +476,9 @@ heater_temp: 50.0
 fan_speed: 0.4      # Set the speed you need
 ```
 
-## 6. ERCF Wiring Diagram & Configuration
+
+
+## 6. ERCF Wiring Diagram and Configuration
 
 This motherboard was originally designed for the BoxTurtle, but it also takes ERCF support into consideration. 
 
@@ -486,11 +488,11 @@ If you plan to use it with an ERCF system, please refer to the wiring box config
 
 **Wiring For ERCF**
 
-![img](Assets/WGB V3 Wiring For ERCF_en.png)
+![img](Assets/img_32_en.png)
 
 
 
-
+**Happy Hare Software Configuration**
 
 ``` ini
 [board_pins mmu]
