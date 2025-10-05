@@ -311,6 +311,10 @@ Then continue using the previous command to view CAN information
 
 ## 4. BoxTurtle Wiring Diagram
 
+For other Type-B MMUs, please refer to the BoxTurtle wiring and configuration . 
+
+Generally you only need to omit the N20 related stuff.
+
 ![img](Assets/img_31_en.jpg)
 
 ## 5. BoxTurtle Configuration
