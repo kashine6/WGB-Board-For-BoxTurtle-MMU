@@ -482,7 +482,7 @@ fan_speed: 0.4      # Set the speed you need
 
 This motherboard was originally designed for the BoxTurtle, but it also takes ERCF support into consideration. 
 
-If you plan to use it with an ERCF system, please refer to the wiring box configuration below.
+If you plan to use it with an ERCF system, please refer to the wiring and configuration below.
 
 
 
