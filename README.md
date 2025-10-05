@@ -11,8 +11,8 @@ English | [中文](README_CN.md)
 - [2. Firmware Flashing Guide (No Canboot)](#2-firmware-flashing-guide-no-canboot)
 - [3. Firmware Flashing Guide (With Canboot)](#3-firmware-flashing-guide-with-canboot)
 - [4. BoxTurtle Wiring Diagram](#4-boxturtle-wiring-diagram)
-- [5. Configuration](#5-configuration)
-
+- [5. BoxTurtle Configuration](#5-boxturtle-configuration)
+- [6. ERCF Wiring Diagram & Configuration](#6-boxturtle-configuration)
 
 ---
 
@@ -313,7 +313,7 @@ Then continue using the previous command to view CAN information
 
 ![img](Assets/img_31_en.jpg)
 
-## 5. Configuration
+## 5. BoxTurtle Configuration
 
 ### **5.1 BT AFC Software Configuration**
 
@@ -475,3 +475,88 @@ heater: extruder
 heater_temp: 50.0
 fan_speed: 0.4      # Set the speed you need
 ```
+
+## 6. ERCF Wiring Diagram & Configuration
+
+This motherboard was originally designed for the BoxTurtle, but it also takes ERCF support into consideration. 
+
+If you plan to use it with an ERCF system, please refer to the wiring box configuration below.
+
+
+
+**Wiring For ERCF**
+
+![img](Assets/WGB V3 Wiring For ERCF_en.png)
+
+
+
+
+
+``` ini
+[board_pins mmu]
+mcu: mmu # Assumes using an external / extra mcu dedicated to MMU
+aliases:
+    MMU_GEAR_UART=PC12,
+    MMU_GEAR_STEP=PD4,
+    MMU_GEAR_DIR=PD3,
+    MMU_GEAR_ENABLE=PD5,
+    MMU_GEAR_DIAG=PD6,
+
+    MMU_GEAR_UART_1=,
+    MMU_GEAR_STEP_1=,
+    MMU_GEAR_DIR_1=,
+    MMU_GEAR_ENABLE_1=,
+    MMU_GEAR_DIAG_1=,
+
+    MMU_GEAR_UART_2=,
+    MMU_GEAR_STEP_2=,
+    MMU_GEAR_DIR_2=,
+    MMU_GEAR_ENABLE_2=,
+    MMU_GEAR_DIAG_2=,
+
+    MMU_GEAR_UART_3=,
+    MMU_GEAR_STEP_3=,
+    MMU_GEAR_DIR_3=,
+    MMU_GEAR_ENABLE_3=,
+    MMU_GEAR_DIAG_3=,
+
+    MMU_SEL_UART=PC10,
+    MMU_SEL_STEP=PD0,
+    MMU_SEL_DIR=PC11,
+    MMU_SEL_ENABLE=PD1,
+    MMU_SEL_DIAG=PD2,
+    MMU_SEL_ENDSTOP=PB2,
+    MMU_SEL_SERVO=PB14,
+
+
+    MMU_ENCODER=PA0,
+    MMU_GATE_SENSOR=,
+    MMU_NEOPIXEL=PB15,
+
+    MMU_PRE_GATE_0=PA1,
+    MMU_PRE_GATE_1=PA2,
+    MMU_PRE_GATE_2=PA3,
+    MMU_PRE_GATE_3=PA4,
+    MMU_PRE_GATE_4=PA5,
+    MMU_PRE_GATE_5=PA6,
+    MMU_PRE_GATE_6=PA7,
+    MMU_PRE_GATE_7=PC4,
+    MMU_PRE_GATE_8=PC5,
+    MMU_PRE_GATE_9=PB0,
+    MMU_PRE_GATE_10=PB1,
+    MMU_PRE_GATE_11=PE7,
+
+    MMU_POST_GEAR_0=,
+    MMU_POST_GEAR_1=,
+    MMU_POST_GEAR_2=,
+    MMU_POST_GEAR_3=,
+    MMU_POST_GEAR_4=,
+    MMU_POST_GEAR_5=,
+    MMU_POST_GEAR_6=,
+    MMU_POST_GEAR_7=,
+    MMU_POST_GEAR_8=,
+    MMU_POST_GEAR_9=,
+    MMU_POST_GEAR_10=,
+    MMU_POST_GEAR_11=,
+```
+
