@@ -488,7 +488,7 @@ If you plan to use it with an ERCF system, please refer to the wiring and config
 
 **Wiring For ERCF**
 
-![img](Assets/img_32_en.png)
+![img](Assets/img_32_en.jpg)
 
 
 
