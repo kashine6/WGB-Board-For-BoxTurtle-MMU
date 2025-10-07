@@ -371,6 +371,8 @@ hardware_pwm: False
 
 ### **5.2 BT Happy Hare Software Configuration**
 
+[!IMPORTANT] Currently HappyHare has added official support for WGBV3.
+
 After installation, you need to modify the pin-related content in the mmu/base/mmu.cfg file. Copy the content below to replace the corresponding content **[Compatible with HH 3.2+ version]**
 
 ```ini
